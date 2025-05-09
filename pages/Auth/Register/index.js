@@ -184,16 +184,16 @@ export default function Register() {
       </Head>
 
       {/* Left side - Image (hidden on mobile) */}
-      <div className="hidden lg:block lg:w-1/2 relative">
+      <div className="hidden lg:block lg:w-1/1 relative">
         <Image
-          src="/dinkes-image.jpg"
+          src="/assets/2025/images/bg/dinkes_pic.png"
           alt="Dinas Kesehatan"
           layout="fill"
           objectFit="cover"
           priority
           className="brightness-90"
         />
-        <div className="absolute inset-0 bg-blue-600 bg-opacity-20 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center px-8 text-white">
             <h1 className="text-4xl font-bold mb-4">Portal PKL</h1>
             <p className="text-xl">Dinas Kesehatan Kota Padang</p>
